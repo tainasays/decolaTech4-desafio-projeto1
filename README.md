@@ -39,21 +39,27 @@ _______________________________________________________________
 ### 💻 Saída no console:
 
 a. Primeira entrada
+ 
 ![image](https://github.com/tainasays/decolaTech4-desafio-projeto1/assets/102188509/5f52c0c1-766a-43ae-816e-fa9f9678b502)
 
 b. Menu interativo
+ 
 ![image](https://github.com/tainasays/decolaTech4-desafio-projeto1/assets/102188509/84abbc00-721a-46dc-857e-ebc5c185047e)
 
 c. Cadastro de veículo
+
 ![image](https://github.com/tainasays/decolaTech4-desafio-projeto1/assets/102188509/adb19240-42e8-4bbd-b8a1-87fcde6c03a3)
 
 d. Listar veículo
+
 ![image](https://github.com/tainasays/decolaTech4-desafio-projeto1/assets/102188509/fe3bc785-ff32-4579-9cef-92fbd2b562e3)
 
 e. Remover veículo + valor a ser pago
+
 ![image](https://github.com/tainasays/decolaTech4-desafio-projeto1/assets/102188509/a9f33001-083b-4b33-a767-2a4c9cab2548)
  
 f. Encerrar programa
+
 ![image](https://github.com/tainasays/decolaTech4-desafio-projeto1/assets/102188509/6d501715-4f99-466e-a3a7-5f4b8df017b3)
 
 
