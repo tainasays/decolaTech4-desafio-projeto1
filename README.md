@@ -1,38 +1,42 @@
-# DIO - Trilha .NET - Fundamentos
+# 🚀 Decola Tech 4 - Dominando a Linguagem C#
 www.dio.me
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
+## 🌟 Desafio de projeto
+Este é o meu primeiro desafio de projeto do Bootcamp Decola Tech 4, do módulo II, Dominando a Linguagem C#. Para este projeto, desenvolvi os requisitos solicitados e obrigatórios para o desafio, deixando em aberto aqui, por ser a versão 1.0. Pretendo, conforme avanço no conhecimento da linguagem, aprimorá-lo no futuro próximo.
 
-## Contexto
-Você foi contratado para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
+## 💡 Contexto
+Para esse primeiro desafio de projeto, foi preciso construir um sistema de estacionamento em linguagem C#.
 
-## Proposta
-Você precisará construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
+## 📌 Proposta
+A construção de uma classe chamada "Estacionamento", conforme o diagrama abaixo:
 ![Diagrama de classe estacionamento](diagrama_classe_estacionamento.png)
 
-A classe contém três variáveis, sendo:
+➡️ A classe contém sete variáveis, sendo:
 
-**precoInicial**: Tipo decimal. É o preço cobrado para deixar seu veículo estacionado.
+1) **precoInicial**: Tipo decimal. É o preço cobrado para deixar seu veículo estacionado.
 
-**precoPorHora**: Tipo decimal. É o preço por hora que o veículo permanecer estacionado.
+2) **precoPorHora**: Tipo decimal. É o preço por hora que o veículo permanecer estacionado.
 
-**veiculos**: É uma lista de string, representando uma coleção de veículos estacionados. Contém apenas a placa do veículo.
+3) **veiculos**: É uma lista de string, representando uma coleção de veículos estacionados. Contém apenas a placa do veículo.
 
-A classe contém três métodos, sendo:
+4) **veiculo**: Tipo string. É o valor contendo o dado do veículo adicionado na lista de string 'veiculos'. Contém apenas a placa do veículo.
 
-**AdicionarVeiculo**: Método responsável por receber uma placa digitada pelo usuário e guardar na variável **veiculos**.
+5) **placa**: Tipo string. É o valor contendo o dado do veículo a ser calculado o preço e o que indica qual veículo será removido do estacionamento.
 
-**RemoverVeiculo**: Método responsável por verificar se um determinado veículo está estacionado, e caso positivo, irá pedir a quantidade de horas que ele permaneceu no estacionamento. Após isso, realiza o seguinte cálculo: **precoInicial** * **precoPorHora**, exibindo para o usuário.
+6) **horas**: Tipo int. Armazena a quantidade de horas em que o veículo ficou estacionado.
 
-**ListarVeiculos**: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
+7) **valorTotal**: Tipo decimal. É o valor a ser pago pelo usuário, ao remover o carro.
+
+➡️ A classe contém três métodos, sendo:
+
+1) **AdicionarVeiculo**: Método responsável por receber uma placa digitada pelo usuário e guardar na variável **veiculos**.
+
+2) **RemoverVeiculo**: Método responsável por verificar se um determinado veículo está estacionado, e caso positivo, irá pedir a quantidade de horas que ele permaneceu no estacionamento. Após isso, realiza o seguinte cálculo: **precoInicial** * **precoPorHora**, exibindo para o usuário.
+
+3) **ListarVeiculos**: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
 
 Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
 1. Cadastrar veículo
 2. Remover veículo
 3. Listar veículos
-4. Encerrar
-
-
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+4. Encerrar programa
