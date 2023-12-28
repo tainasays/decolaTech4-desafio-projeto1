@@ -1,7 +1,7 @@
-# 🚀 Decola Tech 2024 - Dominando a Linguagem C#
+# 🚀 Decola Tech 2024 - Dominando a linguagem C#
 www.dio.me
 
-## 🌟 Desafio de projeto
+## 🌟 Desafio de projeto I - Construindo um sistema para estacionamento com C#
 Este é o primeiro desafio de projeto do Bootcamp Decola Tech 2024, módulo II - Dominando a Linguagem C#. Para este projeto, desenvolvi os requisitos solicitados e obrigatórios para o desafio, começando aqui pela versão 1.0, pois pretendo, conforme avanço no conhecimento da linguagem, aprimorá-lo.
 
 ## ❓ Contexto
