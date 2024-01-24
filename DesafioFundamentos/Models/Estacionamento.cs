@@ -20,10 +20,6 @@ namespace DesafioFundamentos.Models
             string veiculo = Console.ReadLine();
             veiculos.Add(veiculo);
             
-            // foreach (string item in veiculos)
-            // {
-            //     Console.WriteLine($"veículo {item}");
-            // }
             
         }
 
