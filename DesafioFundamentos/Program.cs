@@ -11,7 +11,7 @@ Console.WriteLine("* ========== Seja bem-vindo ao sistema de estacionamento! ===
 precoInicial = Convert.ToDecimal(Console.ReadLine());
 
 Console.WriteLine("Agora, digite o preço por hora:");
-Console.WriteLine("Agora, digite o preço por hora:");
+
 precoPorHora = Convert.ToDecimal(Console.ReadLine());
 
 // Instancia a classe Estacionamento, já com os valores obtidos anteriormente
